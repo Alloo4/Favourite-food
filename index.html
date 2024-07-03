@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Rice and Chicken Recipe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #ff6347;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+    }
+    .ingredients, .instructions {
+      margin: 20px 0;
+    }
+    ul {
+      list-style-type: square;
+    }
+    ol {
+      list-style-type: decimal;
+    }
+    img {
+      height: auto;
+      margin: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .notes {
+      background-color: #ffe4e1;
+      padding: 10px;
+      border-left: 6px solid #ff6347;
+      margin-top: 20px;
+    }
+    .step {
+      margin-bottom: 10px;
+    }
+    .images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .images img {
+      flex: 1 1 calc(30% - 20px);
+      max-width: calc(30% - 20px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Easy Rice and Chicken Recipe</h1>
+    <p>A simple and delicious recipe for classic rice and chicken.</p>
+  </header>
+
+  <div class="container">
+    <section class="overview">
+      <h2>Overview</h2>
+      <p>Rice and chicken is a comforting, hearty meal that's perfect for any night of the week. This dish is easy to make, full of flavor, and always satisfies hunger.</p>
+    </section>
+
+    <section class="ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2 boneless, skinless chicken breasts</li>
+        <li>1 cup long-grain white rice</li>
+        <li>2 cups chicken broth</li>
+        <li>1 tablespoon olive oil</li>
+        <li>1 onion, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>1 teaspoon dried oregano</li>
+        <li>1/2 teaspoon salt</li>
+        <li>1/4 teaspoon black pepper</li>
+        <li>(Optional) Chopped fresh parsley for garnish</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h2>Instructions</h2>
+      <ol>
+        <li class="step">Heat olive oil in a large skillet over medium heat. Add chicken breasts and cook until golden brown on both sides, about 5-7 minutes per side. 🥘</li>
+        <li class="step">Remove chicken from the skillet and set aside. 🥄</li>
+        <li class="step">Add chopped onion to the skillet and cook until softened, about 3 minutes. 🍳</li>
+        <li class="step">Add garlic and dried oregano to the pan, cook for an additional minute until fragrant. 🌿</li>
+        <li class="step">Pour in the chicken broth and bring to a boil. Stir in the rice, salt, and pepper. 🍲</li>
+        <li class="step">Reduce heat to low, cover the pan, and simmer for 15-20 minutes, or until the rice is cooked through and the liquid is absorbed.</li>
+        <li class="step">Shred or slice the cooked chicken breasts and return them to the pan with the rice.</li>
+        <li class="step">(Optional) Garnish with chopped fresh parsley before serving.</li>
+      </ol>
+    </section>
+
+    <section class="tips">
+      <h2>Cooking Tips</h2>
+      <ul>
+        <li>For extra flavor, marinate the chicken in your favorite spices for at least an hour before cooking.</li>
+        <li>Use fresh herbs like thyme or rosemary instead of dried oregano for a different taste.</li>
+        <li>Try adding vegetables like peas, carrots, or bell peppers to the rice for added nutrition and color.</li>
+      </ul>
+    </section>
+
+    <section class="images">
+      <h2>Gallery</h2>
+      <img src="images/image 1.jpeg" height="100" width="100" alt="Rice and Chicken 1">
+      <img src="images/image 2.jpeg" height="100" width="100" alt="Rice and Chicken 2">
+      <img src="images/image 3.jpeg" height="100" width="100" alt="Rice and Chicken 3">
+    </section>
+
+    <section class="notes">
+      <h2>Notes</h2>
+      <p>When the dish is done, it should look golden and slightly crispy with a vibrant green parsley garnish. The aroma will be a tantalizing blend of garlic and oregano, with a rich undertone of chicken broth. The taste should be a harmonious balance of savory, slightly salty flavors with a hint of earthy herbs. The chicken will be tender and juicy, perfectly complemented by the fluffy, flavorful rice.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>Enjoy your delicious and easy rice and chicken!</p>
+  </footer>
+</body>
+</html>
+
+<script>
+  function toggleTips() {
+    const tipsSection = document.getElementById('cooking-tips');
+    if (tipsSection.style.display === 'none' || tipsSection.style.display === '') {
+      tipsSection.style.display = 'block';
+    } else {
+      tipsSection.style.display = 'none';
+    }
+  }
